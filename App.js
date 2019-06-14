@@ -21,7 +21,6 @@ function MadeWithLove() {
       <Link color="inherit" href="https://material-ui.com/">
         Ecole241
       </Link>
-      {' team.'}
     </Typography>
   );
 }
@@ -120,6 +119,11 @@ export default function SignIn() {
             </Grid>
           </Grid>
         </form>
+        <Grid item style={{fontSize: 13, textDecoration: "underline", marginTop: 50}}>
+          <Link href="#" variant="body2">
+            Retour
+          </Link>
+        </Grid>
       </div>
     </Container>
   );
